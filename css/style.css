@@ -280,7 +280,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background: var(--color-background-button-order-hover-focus);
+  background-color: var(--color-background-button-order-hover-focus);
 }
 /* ============ /HERO ============ */
 
@@ -420,7 +420,7 @@ body {
 .customers-link:hover,
 .customers-link:focus {
   color: var(--color-icon-customers-hover-focus);
-  border: 1px solid var(--color-border-customers-item-hover-focus);
+  border-color: var(--color-border-customers-item-hover-focus);
 }
 
 /* ============ CUSTOMERS ============ */
