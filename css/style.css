@@ -401,6 +401,9 @@ body {
   display: flex;
   gap: 24px;
 }
+.customers-icon {
+  fill: currentColor;
+}
 .customers-link {
   display: flex;
   justify-content: center;
@@ -410,13 +413,11 @@ body {
   border: 1px solid var(--color-border-customers-item);
   border-radius: 4px;
   color: var(--color-icon-customers);
-  transition-property: color, border-color;
+  transition-property: color, border;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function);
 }
-.customers-icon {
-  fill: currentColor;
-}
+
 .customers-link:hover,
 .customers-link:focus {
   color: var(--color-icon-customers-hover-focus);
