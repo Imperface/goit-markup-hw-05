@@ -413,7 +413,7 @@ body {
   border: 1px solid var(--color-border-customers-item);
   border-radius: 4px;
   color: var(--color-icon-customers);
-  transition-property: color, border;
+  transition-property: border-color, color;
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-function);
 }
